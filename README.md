@@ -1,4 +1,4 @@
-# maps_dummy_project
+# flutter_login_splash_screen
 
 A new Flutter project.
 
