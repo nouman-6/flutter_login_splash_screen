@@ -13,13 +13,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
       theme: ThemeData(
         textTheme: GoogleFonts.acmeTextTheme(
           Theme.of(context).textTheme,
         )
       ),
-      // home: SplashScreen(),
       initialRoute: AppRoutes.splashScreen,
       getPages: AppRoutes.pages,
     );
